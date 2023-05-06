@@ -48,6 +48,7 @@ class Login : AppCompatActivity() {
                 if (task.isSuccessful) {
                     // Sign in success, update UI with the signed-in user's information
                     val intent = Intent(this@Login, MainActivity::class.java )
+                    finish()
                     startActivity(intent)
                 } else {
                     // If sign in fails, display a message to the user
