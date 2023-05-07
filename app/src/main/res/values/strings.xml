@@ -11,4 +11,6 @@
     <string name="passworD">Password</string>
     <string name="login">Login</string>
     <string name="Sign_up">Sign Up</string>
+    <string name="log_out">Log Out</string>
+    <string name="type_a_message">Type a message</string>
 </resources>
